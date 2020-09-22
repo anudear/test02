@@ -52,6 +52,7 @@ $PAGE->requires->js(new moodle_url($CFG->wwwroot.'/local/deptrpts/js/demo.js'));
 
 
 echo $OUTPUT->header();
+echo "sangita 123";
 
 //here I am getting all dropdon data.
 //Manju: creating the container here.
