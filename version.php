@@ -1,5 +1,6 @@
 <?php
-// This file is part of Moodle - http://moodle.org/
+
+// This file is part of the Certificate module for Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,15 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Quiz activity version information.
+ * Handles uploading files
  *
- * @package   mod_quiz
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    local_deptrpts
+ * @copyright  Mallamma<manjunath@elearn10.com>
+ * @copyright  Dhruv Infoline Pvt Ltd <lmsofindia.com>
+ * @license    http://www.lmsofindia.com 2017 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
-
-$plugin->version   = 2020061500;
-$plugin->requires  = 2020060900;
-$plugin->component = 'mod_quiz';
+$plugin->release    = '2.0.3 (Build: 2014040200)';
+$plugin->version    = 2020061103;
+$plugin->requires   = 2015102300; // Moodle 3.0 and above.
+$plugin->component  = 'local_deptrpts';
+$plugin->maturity   = MATURITY_STABLE;
